@@ -1,4 +1,8 @@
-.modal-box {
+.modal-div {
+    display: none;
+}
+
+.open-modal {
     display: block;
     /* width: 400px;
     height: 200px; */
@@ -6,5 +10,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(0);
+    transform: translate(-50%, -50%);
+    color: rgba(104, 218, 238, 0.123);
 }
+
