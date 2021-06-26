@@ -1,9 +1,18 @@
+body {
+    background: url(images/eugenio-mazzone-6ywyo2qtaZ8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: contain;
+}
+
 .modal-div {
     display: none;
 }
 
 .open-modal {
     display: block;
+    background-color: rgba(8, 219, 202, 0.116);
     /* width: 400px;
     height: 200px; */
     border: 2px solid gray;
