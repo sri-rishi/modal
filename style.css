@@ -2,8 +2,6 @@ body {
     background: url(images/eugenio-mazzone-6ywyo2qtaZ8-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    object-fit: contain;
 }
 
 .modal-div {

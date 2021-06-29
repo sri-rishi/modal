@@ -7,5 +7,5 @@ btnClick.addEventListener("click", () => {
 })
 
 btnClose.addEventListener("click", () => {
-    modalDiv.classList.remove("modal-box");
+    modalDiv.classList.remove("open-modal");
 })
