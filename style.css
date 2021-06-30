@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
 body {
-    background-image: url(images/body-modal.jpeg);
+    margin: 0;
+}
+
+.body-box {
+    font-family: 'Noto Sans', sans-serif;
+    background: url(images/body-modal.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    height: 100%;
 }
+
+.show-btn {
+    font-family: 'Noto Sans', sans-serif;
+    background: rgba(39, 5, 235, 0.993);
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    border: none; 
+    outline: none;
+    border-radius: 20px;
+} 
 
 .modal-div {
     display: none;
@@ -22,9 +44,12 @@ body {
 }
 
 .modal-box {
+    display: grid;
+    align-items: center;
+    justify-items: center;
     background: white;
     position: absolute;
-    width: 400px;
+    width: 500px;
     height: 200px;
     border-radius: 20px;
     top: 50%;
@@ -33,15 +58,55 @@ body {
     color: black;
 }
 
+
 h3 {
+   font-size: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.display-box {
+    display: grid;
+    align-items: center; 
+    justify-items: center;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 10px 8px rgba(116, 119, 119, 0.123);
 }
 
 .close-btn {
     position: absolute;
     top: 20px; 
     right:20px;
+    border: none; 
+    outline: none;
+    background: transparent;
+    font-size: 2rem;
+    color: rgba(247, 6, 6, 0.911);
 }
 
+
+@media (max-width: 786px) {
+    h3 {
+        font-size: 2rem;
+    }
+    .modal-box {
+        width: 300px;
+    }
+
+    .display-box {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
