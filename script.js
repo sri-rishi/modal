@@ -1,6 +1,6 @@
-let modalDiv = document.querySelector(".modal-div");
-let btnClick = document.querySelector(".show-btn");
-let btnClose = document.querySelector(".close-btn");
+const modalDiv = document.querySelector(".modal-div");
+const btnClick = document.querySelector(".show-btn");
+const btnClose = document.querySelector(".close-btn");
 
 btnClick.addEventListener("click", () => {
     modalDiv.classList.toggle("open-modal");
